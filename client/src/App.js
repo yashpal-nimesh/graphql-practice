@@ -1,6 +1,7 @@
 import React from 'react';
-import HomePage from './HomePage';
-import MainPage from './MainPage';
+import HomePage from './Components/HomePage';
+import MainPage from './Components/MainPage';
+
 
 import {
   BrowserRouter as Router,

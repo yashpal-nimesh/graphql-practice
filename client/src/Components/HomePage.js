@@ -1,5 +1,5 @@
 import React from 'react';
-import AuthApi from './AuthApi';
+import AuthApi from '../AuthApi';
 
 import {
     Link,
