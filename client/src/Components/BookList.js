@@ -6,7 +6,6 @@ import { getBookQuery } from '../queries/queries';
 
 function BookList(props) {
 
-    console.log(props);
 
     if (props.data.loading) {
         return (
@@ -19,9 +18,11 @@ function BookList(props) {
         return (
             <ul>
                 List of Books : -
+                {/* <>
                 {props.data.books.map((item, index) =>
                     <li key={item.id}>Name:- {item.name}</li>
                 )}
+                </> */}
             </ul>
         )
     }

@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './assets/main.css';
-import AuthApi from './AuthApi';
+import './assets/tailwind.output.css';
 
 
 ReactDOM.render(

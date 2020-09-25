@@ -13,7 +13,7 @@ import {
 import AuthApi from './AuthApi';
 
 
-function App(props) {
+function App() {
 
 
   const [auth, setAuth] = React.useState();
@@ -60,8 +60,6 @@ function App(props) {
 
 
 const ProtectedMain = ({ auth, Component, ...rest }) => {
-
-  console.log("main", auth)
 
 
   return (
